@@ -8,6 +8,15 @@ body {
     padding: 0;
 }
 
+main {
+    max-width: 1500px;
+    /* margin: 0 auto; */
+}
+
+main section {
+    /* margin-top: 120px; */
+}
+
 .banner {
     background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -52,3 +61,144 @@ body {
     margin-top: 20px;
     /* margin-left: 200px; */
 }
+
+/* main section styles */
+
+
+.photo-mistake {
+    height: 800px;
+    width: 1300px;
+    display: flex;
+    /* align-items: center; */
+    /* object-position: center; */
+    /* object-fit: none; */
+    /* float: inline-end; */
+    gap: 100px;
+}
+
+.photo-mistake img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.mistake-content {
+    height: 500px;
+    width: 500px;
+    margin-top: 180px ;
+}
+
+.mistakes{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mistake-lorem {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.check li {
+    list-style: none;
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 0.5em;
+}
+
+.check li::before {
+    content: "✔"; /* Unicode checkmark character */
+    position: absolute;
+    left: 0;
+    color: #4CAF50; /* Color of the checkmark */
+    font-size: 1.2em; /* Adjust size as needed */
+    line-height: 1; /* Align checkmark vertically */
+}
+
+.plans-to {
+    /* display: flex; */
+    color: goldenrod;
+    margin-top: 150px;
+    /* justify-content: center; */
+}
+
+.plans-to-do {
+    /* padding: 30px 150px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.plans-container {
+    /* align-items: center; */
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    gap: 140px;
+}
+
+.mindset {
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+
+
+.foreground-img {
+    position: relative;
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+
+}
+
+.text-overlay {
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    padding: 20px 20px;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.plan-button {
+    position: absolute;
+    z-index: 1;
+    color: #005FAC;
+    background: #FFFFFF;
+    height: 60px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin: 180px 60px;
+
+}
+
+footer {
+    display: flex;
+    background: black;
+    /* max-width: 1600px; */
+    color: #FFFFFF;
+    margin-top: 140px;
+    padding: 130px 200px;
+}
+
+/* .footer-column {
+    display: block;
+    max-width: 800px;
+    padding: 150px;
+}
+
+.footer-col {
+    display: block;
+    max-width: 800px;
+    padding: 150px;
+    font-size: 16px;
+} */
